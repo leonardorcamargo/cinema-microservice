@@ -4,7 +4,7 @@
   "description": "An example about microservices",
   "main": "index.js",
   "scripts": {
-    "start": "node index", 
+    "start": "node index",
     "test": "node index.test | tap-spec"
   },
   "keywords": [
@@ -21,6 +21,7 @@
     "helmet": "^3.16.0",
     "mongodb": "^3.2.2",
     "morgan": "^1.9.1",
+    "supertest": "^4.0.2",
     "tap-spec": "^5.0.0",
     "tape": "^4.10.1"
   }
